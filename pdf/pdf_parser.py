@@ -38,8 +38,8 @@ class Parser:
     
         doc.close()
         # establish df
-        df = pd.DataFrame(df, columns=['序號', '案號', '入境日/旅遊迄日', '國籍', '性別', '年齡', '旅遊國家', '確診日', '長程落地採檢','備註'])
-        df.drop(['備註'],inplace=True,axis=1)
+        df = pd.DataFrame(df, columns=['序號', '案號', '入境日/旅遊迄日', '國籍', '性別', '年齡', '旅遊國家', '確診日', '長程落地採檢'])
+        #df.drop(['備註'],inplace=True,axis=1)
         update_date = datetime.now().strftime('%Y/%m/%d')
         save_date = datetime.now().strftime('%Y_%m_%d')
         df['update_date'] = update_date
