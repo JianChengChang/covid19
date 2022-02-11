@@ -18,6 +18,6 @@ pdf資料夾中有一個pdf_parser.py<br>
 此為Power BI的資料來源
 
 ### Power BI Report
-目前公開的 Power BI Report 位置如下
-https://aris.tw/article_content/16
-歡迎大家點閱
+目前公開的 Power BI Report 位置如下<br>
+https://aris.tw/article_content/16<br>
+歡迎大家點閱<br>
