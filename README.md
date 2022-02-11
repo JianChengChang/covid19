@@ -16,3 +16,8 @@ pdf資料夾內又分為「境外」與「本土」<br>
 pdf資料夾中有一個pdf_parser.py<br>
 能將境外本土內的pdf檔轉成csv檔並放在csv資料夾的abroad與local中<br>
 此為Power BI的資料來源
+
+### Power BI Report
+目前公開的 Power BI Report 位置如下
+https://aris.tw/article_content/16
+歡迎大家點閱
