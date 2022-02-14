@@ -22,7 +22,7 @@ class Parser:
     def abroad():
         
         # set pdf path
-        pdf_set = PdfSet(r'D:\git\covid19\pdf\境外')
+        pdf_set = PdfSet(r'.\pdf\境外')
         pdf_path, pdf, pdf_files = pdf_set.get()
 
         # date = [
@@ -55,7 +55,7 @@ class Parser:
             df['update_date'] = update_date
 
             # save csv
-            df.to_csv(r'D:\git\covid19\csv\abroad'+'\\'+save_date+'.csv', index = False)
+            df.to_csv(r'.\csv\abroad'+'\\'+save_date+'.csv', index = False)
 
         #shutil.rmtree(pdf_path)
         #os.mkdir(pdf_path)
@@ -64,7 +64,7 @@ class Parser:
     def local():
         
         # set pdf path
-        pdf_set = PdfSet(r'D:\git\covid19\pdf\本土')
+        pdf_set = PdfSet(r'.\pdf\本土')
         pdf_path, pdf, pdf_files = pdf_set.get()
 
         # date = [
@@ -97,7 +97,7 @@ class Parser:
             df['update_date'] = update_date
 
             # save csv
-            df.to_csv(r'D:\git\covid19\csv\local'+'\\'+save_date+'.csv', index = False)
+            df.to_csv(r'.\csv\local'+'\\'+save_date+'.csv', index = False)
         
         #shutil.rmtree(pdf_path)
         #os.mkdir(pdf_path)
